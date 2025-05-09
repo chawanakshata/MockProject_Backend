@@ -1,0 +1,2700 @@
+{
+  "Version": 1,
+  "Hash": "9wCUFXjumkV02semClyxjCkLkCOACRk0kEOHAvW1tgU=",
+  "Source": "Mock Project",
+  "BasePath": "_content/Mock Project",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mock Project\\wwwroot",
+      "Source": "Mock Project",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "znk03rci0s",
+      "Integrity": "YShe60ihhhL2KH6SZsnOUg/PjVXRCai1arY6hX3kX3k=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa1.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1wr8hq7enl",
+      "Integrity": "MYgqwxUQYAMfxHiY1OMu1r6mdi1Dk9QGOLAWXUZfmEo=",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa2.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pt65k3l9vv",
+      "Integrity": "zcFLXj9DtYFo3Dy2vFYu1n90+YCHqYf9xiFZtS9hw7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa3.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qduiqz4ogu",
+      "Integrity": "so+ZvxlpZIjAfINVcGkyEAQlehSoa7PSITfE7ZMNfZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa4.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ki90u9t7t0",
+      "Integrity": "1J2J97EWxZKQvv1LuCvlIQzBbIyQNQEN4NFNDMu6y/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa5.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataa5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xi1vup7hcw",
+      "Integrity": "eauod0Xv4BwZ2uedegjGLnquPuEjh8LEMSW4ekG+OhM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataa5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataProfile.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/akshataProfile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qp924bnv38",
+      "Integrity": "rl0UFQIYTfp5endBD9qEpqKplrLQyBZgZ6OJ+aV8SYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\akshataProfile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Akshita.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Akshita#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6yh35db2o7",
+      "Integrity": "nibzF26NHE5mufy47NuoU+b6A+TKScWKCwYS3sm+NMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Akshita.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankita.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Ankita#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1l43mxt1fn",
+      "Integrity": "9UOTVd231iN8DDM5MTlGgvYZ1/8KIxfLTBRi1XF948s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Ankita.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankitaa.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Ankitaa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86t4vfcgb3",
+      "Integrity": "sEfNAzJvjlxAM0UuPTsD39rR0NFq1sRBxxQs+nvzUTM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Ankitaa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Anuj.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Anuj#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ovdvmgcgt7",
+      "Integrity": "/NFJlY9POdecSnjB76yqjy5W6BsMZ/JWmgCWoh4A3a4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Anuj.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Dhanya.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Dhanya#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bm3nwyt20m",
+      "Integrity": "E6rXi7GG7UsV+izX37Ny2ZiTkcWc8XrYJ5c6iYk9RTo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Dhanya.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\MD.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/MD#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqayhu9zja",
+      "Integrity": "HVz/Z57+7ivCrffypdo8eTua30djU/CpJRS1gaD3G9E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\MD.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Media.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Media#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iwwkbcg4at",
+      "Integrity": "boH/iWGoDejeebjfk0QmtzGYYjRHNexbn8RzcvE8h5o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Media.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Mrunmai.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Mrunmai#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "un3m418qot",
+      "Integrity": "CuTX5g9Pyysw43795t+tBEPs+atZ6KmuhQNVTmrImJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Mrunmai.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Nikita.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Nikita#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1tkrq84hte",
+      "Integrity": "FZwW8/53Wk1F/E/4on46eDn866N5mDQ8QEzy6RGuFZ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Nikita.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rahul.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Rahul#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jkxfxcbolu",
+      "Integrity": "s3gB2moPQ35gRIuWjkNsIFRDN3KIV9FfkyEhMM4im2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Rahul.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rohan.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Rohan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "la36j4w4oq",
+      "Integrity": "LdkQK/+Sun0m91pnJ5F5U9r/W/mJ9VEZbDbe+6BqiII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Rohan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sakshi.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Sakshi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1liosk8kf7",
+      "Integrity": "65/rBloKzQP45bBnQqdneS6SoaS9EqLd6HvbOoGEuwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Sakshi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Samruddha.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Samruddha#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xe76imqqw5",
+      "Integrity": "9wp2jDNtE/jEw1N3ZDyBgQ09qkagRXd5eW305gxcu/g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Samruddha.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shruti.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Shruti#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdvr9n76bb",
+      "Integrity": "Y9OKkfSapFrV6pg38A5xpu2x/LH0WTG7tMKfnMso53c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Shruti.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shrutii.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Shrutii#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iifvu86y3u",
+      "Integrity": "Sj62P1gWWRYBpIj2mNeOI99DKt311pmkYZGTQ2+MUNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Shrutii.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Siddhi.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Siddhi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3jb379zuf5",
+      "Integrity": "Hzhj04VmrZ0E8R/HOjyAtEVlv5aQVplL4r6hzi+dW4o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Siddhi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sushmita.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Sushmita#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ik765tdiur",
+      "Integrity": "0nSn2yN7bSEXM071vWg/0UVopFSumRO+Bk6+5Ui6xWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Sushmita.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Tanmay.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Tanmay#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "is9kftz66a",
+      "Integrity": "kiHWnLetzB0pwruDXg/9jt/O5tbMnJ/VPqkUQ3QuBbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tanmay.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Vidhi.jpg",
+      "SourceId": "Mock Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\",
+      "BasePath": "_content/Mock Project",
+      "RelativePath": "uploads/Vidhi#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v43rlhkdlo",
+      "Integrity": "YR6yqD9Dhujtfm4yAxo19N+uWuTteZdcCxcIgz/EA5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Vidhi.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/akshataa.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6924548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YShe60ihhhL2KH6SZsnOUg/PjVXRCai1arY6hX3kX3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YShe60ihhhL2KH6SZsnOUg/PjVXRCai1arY6hX3kX3k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa.znk03rci0s.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6924548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YShe60ihhhL2KH6SZsnOUg/PjVXRCai1arY6hX3kX3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "znk03rci0s"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YShe60ihhhL2KH6SZsnOUg/PjVXRCai1arY6hX3kX3k="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa1.1wr8hq7enl.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "855152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MYgqwxUQYAMfxHiY1OMu1r6mdi1Dk9QGOLAWXUZfmEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 14:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1wr8hq7enl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MYgqwxUQYAMfxHiY1OMu1r6mdi1Dk9QGOLAWXUZfmEo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa1.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "855152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MYgqwxUQYAMfxHiY1OMu1r6mdi1Dk9QGOLAWXUZfmEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 14:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MYgqwxUQYAMfxHiY1OMu1r6mdi1Dk9QGOLAWXUZfmEo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa2.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zcFLXj9DtYFo3Dy2vFYu1n90+YCHqYf9xiFZtS9hw7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zcFLXj9DtYFo3Dy2vFYu1n90+YCHqYf9xiFZtS9hw7Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa2.pt65k3l9vv.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zcFLXj9DtYFo3Dy2vFYu1n90+YCHqYf9xiFZtS9hw7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt65k3l9vv"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zcFLXj9DtYFo3Dy2vFYu1n90+YCHqYf9xiFZtS9hw7Y="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa3.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3274556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so+ZvxlpZIjAfINVcGkyEAQlehSoa7PSITfE7ZMNfZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:29:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-so+ZvxlpZIjAfINVcGkyEAQlehSoa7PSITfE7ZMNfZE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa3.qduiqz4ogu.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3274556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so+ZvxlpZIjAfINVcGkyEAQlehSoa7PSITfE7ZMNfZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:29:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qduiqz4ogu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-so+ZvxlpZIjAfINVcGkyEAQlehSoa7PSITfE7ZMNfZE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa4.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3415763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2J97EWxZKQvv1LuCvlIQzBbIyQNQEN4NFNDMu6y/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1J2J97EWxZKQvv1LuCvlIQzBbIyQNQEN4NFNDMu6y/s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa4.ki90u9t7t0.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3415763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1J2J97EWxZKQvv1LuCvlIQzBbIyQNQEN4NFNDMu6y/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 07:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ki90u9t7t0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1J2J97EWxZKQvv1LuCvlIQzBbIyQNQEN4NFNDMu6y/s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa5.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eauod0Xv4BwZ2uedegjGLnquPuEjh8LEMSW4ekG+OhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:29:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eauod0Xv4BwZ2uedegjGLnquPuEjh8LEMSW4ekG+OhM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataa5.xi1vup7hcw.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2035083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eauod0Xv4BwZ2uedegjGLnquPuEjh8LEMSW4ekG+OhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:29:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xi1vup7hcw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataa5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eauod0Xv4BwZ2uedegjGLnquPuEjh8LEMSW4ekG+OhM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataProfile.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataProfile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1714586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rl0UFQIYTfp5endBD9qEpqKplrLQyBZgZ6OJ+aV8SYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:26:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rl0UFQIYTfp5endBD9qEpqKplrLQyBZgZ6OJ+aV8SYQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/akshataProfile.qp924bnv38.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataProfile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1714586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rl0UFQIYTfp5endBD9qEpqKplrLQyBZgZ6OJ+aV8SYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 18:26:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qp924bnv38"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/akshataProfile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rl0UFQIYTfp5endBD9qEpqKplrLQyBZgZ6OJ+aV8SYQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Akshita.6yh35db2o7.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Akshita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5916559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nibzF26NHE5mufy47NuoU+b6A+TKScWKCwYS3sm+NMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 09:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6yh35db2o7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Akshita.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nibzF26NHE5mufy47NuoU+b6A+TKScWKCwYS3sm+NMw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Akshita.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Akshita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5916559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nibzF26NHE5mufy47NuoU+b6A+TKScWKCwYS3sm+NMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 09:01:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nibzF26NHE5mufy47NuoU+b6A+TKScWKCwYS3sm+NMw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Ankita.1l43mxt1fn.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4992567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9UOTVd231iN8DDM5MTlGgvYZ1/8KIxfLTBRi1XF948s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1l43mxt1fn"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Ankita.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9UOTVd231iN8DDM5MTlGgvYZ1/8KIxfLTBRi1XF948s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Ankita.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4992567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9UOTVd231iN8DDM5MTlGgvYZ1/8KIxfLTBRi1XF948s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9UOTVd231iN8DDM5MTlGgvYZ1/8KIxfLTBRi1XF948s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Ankitaa.86t4vfcgb3.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankitaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4964029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEfNAzJvjlxAM0UuPTsD39rR0NFq1sRBxxQs+nvzUTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86t4vfcgb3"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Ankitaa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEfNAzJvjlxAM0UuPTsD39rR0NFq1sRBxxQs+nvzUTM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Ankitaa.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankitaa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4964029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEfNAzJvjlxAM0UuPTsD39rR0NFq1sRBxxQs+nvzUTM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:14:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEfNAzJvjlxAM0UuPTsD39rR0NFq1sRBxxQs+nvzUTM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Anuj.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Anuj.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4674792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/NFJlY9POdecSnjB76yqjy5W6BsMZ/JWmgCWoh4A3a4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NFJlY9POdecSnjB76yqjy5W6BsMZ/JWmgCWoh4A3a4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Anuj.ovdvmgcgt7.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Anuj.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4674792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/NFJlY9POdecSnjB76yqjy5W6BsMZ/JWmgCWoh4A3a4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovdvmgcgt7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Anuj.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NFJlY9POdecSnjB76yqjy5W6BsMZ/JWmgCWoh4A3a4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Dhanya.bm3nwyt20m.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Dhanya.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5712015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6rXi7GG7UsV+izX37Ny2ZiTkcWc8XrYJ5c6iYk9RTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:02:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bm3nwyt20m"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Dhanya.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6rXi7GG7UsV+izX37Ny2ZiTkcWc8XrYJ5c6iYk9RTo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Dhanya.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Dhanya.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5712015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E6rXi7GG7UsV+izX37Ny2ZiTkcWc8XrYJ5c6iYk9RTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:02:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E6rXi7GG7UsV+izX37Ny2ZiTkcWc8XrYJ5c6iYk9RTo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/MD.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\MD.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4143985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVz/Z57+7ivCrffypdo8eTua30djU/CpJRS1gaD3G9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVz/Z57+7ivCrffypdo8eTua30djU/CpJRS1gaD3G9E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/MD.rqayhu9zja.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\MD.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4143985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVz/Z57+7ivCrffypdo8eTua30djU/CpJRS1gaD3G9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 06:00:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqayhu9zja"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/MD.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVz/Z57+7ivCrffypdo8eTua30djU/CpJRS1gaD3G9E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Media.iwwkbcg4at.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Media.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boH/iWGoDejeebjfk0QmtzGYYjRHNexbn8RzcvE8h5o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iwwkbcg4at"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Media.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-boH/iWGoDejeebjfk0QmtzGYYjRHNexbn8RzcvE8h5o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Media.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Media.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boH/iWGoDejeebjfk0QmtzGYYjRHNexbn8RzcvE8h5o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-boH/iWGoDejeebjfk0QmtzGYYjRHNexbn8RzcvE8h5o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Mrunmai.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Mrunmai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5210062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CuTX5g9Pyysw43795t+tBEPs+atZ6KmuhQNVTmrImJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:13:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CuTX5g9Pyysw43795t+tBEPs+atZ6KmuhQNVTmrImJM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Mrunmai.un3m418qot.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Mrunmai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5210062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CuTX5g9Pyysw43795t+tBEPs+atZ6KmuhQNVTmrImJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:13:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "un3m418qot"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Mrunmai.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CuTX5g9Pyysw43795t+tBEPs+atZ6KmuhQNVTmrImJM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Nikita.1tkrq84hte.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Nikita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4351831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FZwW8/53Wk1F/E/4on46eDn866N5mDQ8QEzy6RGuFZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1tkrq84hte"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Nikita.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FZwW8/53Wk1F/E/4on46eDn866N5mDQ8QEzy6RGuFZ0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Nikita.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Nikita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4351831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FZwW8/53Wk1F/E/4on46eDn866N5mDQ8QEzy6RGuFZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FZwW8/53Wk1F/E/4on46eDn866N5mDQ8QEzy6RGuFZ0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rahul.jkxfxcbolu.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rahul.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5486571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s3gB2moPQ35gRIuWjkNsIFRDN3KIV9FfkyEhMM4im2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jkxfxcbolu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Rahul.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s3gB2moPQ35gRIuWjkNsIFRDN3KIV9FfkyEhMM4im2Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rahul.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rahul.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5486571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s3gB2moPQ35gRIuWjkNsIFRDN3KIV9FfkyEhMM4im2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:59:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s3gB2moPQ35gRIuWjkNsIFRDN3KIV9FfkyEhMM4im2Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rohan.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rohan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4065023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LdkQK/+Sun0m91pnJ5F5U9r/W/mJ9VEZbDbe+6BqiII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LdkQK/+Sun0m91pnJ5F5U9r/W/mJ9VEZbDbe+6BqiII="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Rohan.la36j4w4oq.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rohan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4065023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LdkQK/+Sun0m91pnJ5F5U9r/W/mJ9VEZbDbe+6BqiII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:15:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "la36j4w4oq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Rohan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LdkQK/+Sun0m91pnJ5F5U9r/W/mJ9VEZbDbe+6BqiII="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sakshi.1liosk8kf7.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sakshi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6111353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"65/rBloKzQP45bBnQqdneS6SoaS9EqLd6HvbOoGEuwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:15:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1liosk8kf7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Sakshi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-65/rBloKzQP45bBnQqdneS6SoaS9EqLd6HvbOoGEuwM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sakshi.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sakshi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6111353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"65/rBloKzQP45bBnQqdneS6SoaS9EqLd6HvbOoGEuwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:15:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-65/rBloKzQP45bBnQqdneS6SoaS9EqLd6HvbOoGEuwM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Samruddha.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Samruddha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4924708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9wp2jDNtE/jEw1N3ZDyBgQ09qkagRXd5eW305gxcu/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9wp2jDNtE/jEw1N3ZDyBgQ09qkagRXd5eW305gxcu/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Samruddha.xe76imqqw5.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Samruddha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4924708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9wp2jDNtE/jEw1N3ZDyBgQ09qkagRXd5eW305gxcu/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 07:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xe76imqqw5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Samruddha.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9wp2jDNtE/jEw1N3ZDyBgQ09qkagRXd5eW305gxcu/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shruti.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shruti.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4645583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OKkfSapFrV6pg38A5xpu2x/LH0WTG7tMKfnMso53c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 16:58:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OKkfSapFrV6pg38A5xpu2x/LH0WTG7tMKfnMso53c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shruti.pdvr9n76bb.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shruti.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4645583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y9OKkfSapFrV6pg38A5xpu2x/LH0WTG7tMKfnMso53c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 16:58:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdvr9n76bb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Shruti.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y9OKkfSapFrV6pg38A5xpu2x/LH0WTG7tMKfnMso53c="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shrutii.iifvu86y3u.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shrutii.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4735781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sj62P1gWWRYBpIj2mNeOI99DKt311pmkYZGTQ2+MUNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:11:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iifvu86y3u"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Shrutii.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sj62P1gWWRYBpIj2mNeOI99DKt311pmkYZGTQ2+MUNw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Shrutii.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shrutii.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4735781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sj62P1gWWRYBpIj2mNeOI99DKt311pmkYZGTQ2+MUNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:11:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sj62P1gWWRYBpIj2mNeOI99DKt311pmkYZGTQ2+MUNw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Siddhi.3jb379zuf5.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Siddhi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hzhj04VmrZ0E8R/HOjyAtEVlv5aQVplL4r6hzi+dW4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:54:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3jb379zuf5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Siddhi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hzhj04VmrZ0E8R/HOjyAtEVlv5aQVplL4r6hzi+dW4o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Siddhi.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Siddhi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hzhj04VmrZ0E8R/HOjyAtEVlv5aQVplL4r6hzi+dW4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 05:54:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hzhj04VmrZ0E8R/HOjyAtEVlv5aQVplL4r6hzi+dW4o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sushmita.ik765tdiur.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sushmita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5146111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nSn2yN7bSEXM071vWg/0UVopFSumRO+Bk6+5Ui6xWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 18:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ik765tdiur"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Sushmita.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nSn2yN7bSEXM071vWg/0UVopFSumRO+Bk6+5Ui6xWY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Sushmita.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sushmita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5146111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nSn2yN7bSEXM071vWg/0UVopFSumRO+Bk6+5Ui6xWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 18:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nSn2yN7bSEXM071vWg/0UVopFSumRO+Bk6+5Ui6xWY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tanmay.is9kftz66a.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Tanmay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5224542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kiHWnLetzB0pwruDXg/9jt/O5tbMnJ/VPqkUQ3QuBbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:01:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "is9kftz66a"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Tanmay.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiHWnLetzB0pwruDXg/9jt/O5tbMnJ/VPqkUQ3QuBbQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Tanmay.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Tanmay.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5224542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kiHWnLetzB0pwruDXg/9jt/O5tbMnJ/VPqkUQ3QuBbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:01:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kiHWnLetzB0pwruDXg/9jt/O5tbMnJ/VPqkUQ3QuBbQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Vidhi.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Vidhi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5955787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YR6yqD9Dhujtfm4yAxo19N+uWuTteZdcCxcIgz/EA5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:12:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YR6yqD9Dhujtfm4yAxo19N+uWuTteZdcCxcIgz/EA5E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Vidhi.v43rlhkdlo.jpg",
+      "AssetFile": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Vidhi.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5955787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YR6yqD9Dhujtfm4yAxo19N+uWuTteZdcCxcIgz/EA5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 14:12:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v43rlhkdlo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Vidhi.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YR6yqD9Dhujtfm4yAxo19N+uWuTteZdcCxcIgz/EA5E="
+        }
+      ]
+    }
+  ]
+}

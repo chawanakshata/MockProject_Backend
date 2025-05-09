@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Akshita.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Akshita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankita.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Ankita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Ankitaa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Ankitaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Anuj.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Anuj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Dhanya.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Dhanya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\MD.jpg",
+      "PackagePath": "staticwebassets\\uploads\\MD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Media.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Media.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Mrunmai.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Mrunmai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Nikita.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Nikita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rahul.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Rahul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Rohan.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Rohan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sakshi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Sakshi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Samruddha.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Samruddha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shruti.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Shruti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Shrutii.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Shrutii.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Siddhi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Siddhi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Sushmita.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Sushmita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Tanmay.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Tanmay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\Vidhi.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Vidhi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataProfile.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataProfile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\apramodchawan\\source\\Copy Mock Project\\Mock Project\\wwwroot\\uploads\\akshataa5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\akshataa5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mock Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mock Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Mock Project.props",
+      "PackagePath": "build\\Mock Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Mock Project.props",
+      "PackagePath": "buildMultiTargeting\\Mock Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Mock Project.props",
+      "PackagePath": "buildTransitive\\Mock Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
