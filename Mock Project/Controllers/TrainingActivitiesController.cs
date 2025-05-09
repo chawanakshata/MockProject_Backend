@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Mock_Project.DTOs;
 using Mock_Project.Models;
 using Mock_Project.Repositories;
