@@ -22,6 +22,7 @@ namespace Mock_Project.Controllers
             _environment = environment;
         }
 
+        // Retrieves a single user by the ID.
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(int id)
         {
@@ -55,6 +56,7 @@ namespace Mock_Project.Controllers
             return Ok(userDto);
         }
 
+        // Retrieves all users.
         [HttpGet]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -83,6 +85,7 @@ namespace Mock_Project.Controllers
             return Ok(userDtos);
         }
 
+        // Uploads a user's profile picture and creates a new user record.
         [HttpPost("upload")]
         public async Task<IActionResult> UploadUserImage([FromForm] UserFileUploadRequest model)
         {
@@ -134,6 +137,7 @@ namespace Mock_Project.Controllers
             return CreatedAtAction(nameof(GetUser), new { id = user.Id }, userDto);
         }
 
+        // Updates an existing user's information, including profile picture and gallery images.
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromForm] UserUpdateRequest model)
         {
@@ -193,6 +197,7 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
+        // Deletes a user by ID.
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
@@ -205,6 +210,7 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
+        // Adds an image to a user's gallery.
         [HttpPost("gallery")]
         public async Task<IActionResult> AddImageToGallery([FromForm] GalleryImageUploadRequest model)
         {
@@ -246,6 +252,7 @@ namespace Mock_Project.Controllers
             return Ok(userImageDto);
         }
 
+        // Deletes an image from a user's gallery by its ID.
         [HttpDelete("gallery/{imageId}")]
         public async Task<IActionResult> DeleteImageFromGallery(int imageId)
         {
@@ -268,6 +275,8 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
+
+        // Adds a fact to a user's profile.
         [HttpPost("facts")]
         public async Task<IActionResult> AddFact([FromBody] UserFactRequestDto model)
         {
@@ -293,6 +302,7 @@ namespace Mock_Project.Controllers
             });
         }
 
+        // Updates an existing fact by its ID.
         [HttpPut("facts/{factId}")]
         public async Task<IActionResult> UpdateFact(int factId, [FromBody] UserFactRequestDto model)
         {
@@ -308,6 +318,8 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
+
+        // Deletes a fact from a user's profile by its ID.
         [HttpDelete("facts/{factId}")]
         public async Task<IActionResult> DeleteFact(int factId)
         {
@@ -324,4 +336,3 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
     }
-}
