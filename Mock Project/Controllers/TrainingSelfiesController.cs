@@ -1,4 +1,4 @@
-﻿
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Mock_Project.DTOs;
@@ -23,6 +23,7 @@ namespace Mock_Project.Controllers
             _environment = environment;
         }
 
+        // Creates a new training selfie from the provided data.
         [HttpPost("UploadFile")]
         public async Task<IActionResult> UploadFile([FromForm] FileUploadRequest1 model)
         {
@@ -58,6 +59,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingSelfieDto);
         }
 
+        // Retrieves all training selfies.
         [HttpGet]
         public async Task<IActionResult> GetAllTrainingSelfies()
         {
@@ -72,6 +74,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingSelfieDtos);
         }
 
+        // Retrieves a specific training selfie by ID.
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTrainingSelfieById(int id)
         {
@@ -90,7 +93,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingSelfieDto);
         }
 
-        
+        // Updates an existing training selfie by its id with the new data.
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTrainingSelfie(int id, [FromForm] FileUploadRequest1 model)
         {
@@ -121,7 +124,7 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
-
+        // Deletes a training selfie by its id.
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTrainingSelfie(int id)
         {
