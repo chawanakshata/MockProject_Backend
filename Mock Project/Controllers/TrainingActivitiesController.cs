@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+
+using Microsoft.AspNetCore.Mvc;
 using Mock_Project.DTOs;
 using Mock_Project.Models;
 using Mock_Project.Repositories;
@@ -18,6 +19,7 @@ namespace Mock_Project.Controllers
             _trainingActivityRepository = trainingActivityRepository;
         }
 
+        // Creates a new training activity from the provided data.
         [HttpPost]
         public async Task<IActionResult> CreateTrainingActivity([FromBody] TrainingActivityRequestDto trainingActivityRequestDto)
         {
@@ -47,6 +49,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingActivityDto);
         }
 
+        // Retrieves all training activities.
         [HttpGet]
         public async Task<IActionResult> GetTrainingActivities()
         {
@@ -63,6 +66,7 @@ namespace Mock_Project.Controllers
             return Ok(activityDtos);
         }
 
+        // Retrieves a specific training activity by its ID
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTrainingActivityById(int id)
         {
@@ -82,6 +86,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingActivityDto);
         }
 
+        // Updates an existing training activity by its ID with new data.
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTrainingActivity(int id, [FromBody] TrainingActivityRequestDto trainingActivityRequestDto)
         {
@@ -103,6 +108,7 @@ namespace Mock_Project.Controllers
             return NoContent();
         }
 
+        // Deletes a specific training activity by its ID.
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTrainingActivity(int id)
         {
