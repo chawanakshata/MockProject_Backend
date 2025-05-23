@@ -15,29 +15,23 @@ namespace Mock_Project.Controllers
     public class TrainingSelfiesController : ControllerBase
     {
         private readonly ITrainingSelfieRepository _trainingSelfieRepository;
-  
-        public TrainingSelfiesController(ITrainingSelfieRepository trainingSelfieRepository)
+        private readonly IFileConverterService _fileConverterService;
+
+        public TrainingSelfiesController(ITrainingSelfieRepository trainingSelfieRepository, IFileConverterService fileConverterService)
         {
             _trainingSelfieRepository = trainingSelfieRepository;
+            _fileConverterService = fileConverterService;
         }
 
         // Handles POST requests for uploading a training selfie.
         [HttpPost("UploadFile")]
-        [ProducesResponseType(typeof(TrainingSelfie), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> UploadFile([FromForm] FileUploadRequest1 model) 
         {
             if (model.File == null || model.File.Length == 0)
                 throw new BadRequestException("No file uploaded.");
 
             // Convert uploaded file to Base64 string
-            string base64String;
-            using (var memoryStream = new MemoryStream())  // Creates a memory stream to temporarily hold the file data
-            {
-                await model.File.CopyToAsync(memoryStream); // Copies the uploaded file data to the memory stream
-                var fileBytes = memoryStream.ToArray(); // Converts the memory stream to a byte array
-                base64String = Convert.ToBase64String(fileBytes); // Converts the byte array to a base64 string
-            }
+            string base64String = await _fileConverterService.ConvertToBase64Async(model.File);
 
             var trainingSelfie = new TrainingSelfie // Creates a new TrainingSelfie object to store the selfie data
             {
@@ -85,7 +79,7 @@ namespace Mock_Project.Controllers
             return Ok(trainingSelfieDto); // Returns the TrainingSelfieDto object as a response with status code 200 OK
         }
 
-
+        // Handles PUT requests for updating a training selfie by ID.
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTrainingSelfie(int id, [FromForm] FileUploadRequest1 model)
         {
@@ -97,12 +91,8 @@ namespace Mock_Project.Controllers
 
             if (model.File != null && model.File.Length > 0)
             {
-                using (var memoryStream = new MemoryStream()) // Creates a memory stream to temporarily hold the file data
-                {                  
-                    await model.File.CopyToAsync(memoryStream); // Copies the uploaded file data to the memory stream
-                    var fileBytes = memoryStream.ToArray(); // Converts the memory stream to a byte array
-                    trainingSelfie.Base64Image = Convert.ToBase64String(fileBytes); // Converts the byte array to a base64 string
-                }
+                // Use the file converter service to convert the file to base64
+                trainingSelfie.Base64Image = await _fileConverterService.ConvertToBase64Async(model.File);
             }
             await _trainingSelfieRepository.UpdateAsync(trainingSelfie);
 
@@ -129,7 +119,6 @@ namespace Mock_Project.Controllers
 
             return NoContent(); // Returns a 204 No Content response indicating successful deletion
         }
-
 
     }
 }

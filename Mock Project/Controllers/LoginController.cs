@@ -50,7 +50,6 @@ namespace Mock_Project.Controllers
             {
                 Id = created.Id,
                 Username = created.Username,
-                // Do NOT return password in production!
                 Password = created.Password,
                 Role = created.Role
             };

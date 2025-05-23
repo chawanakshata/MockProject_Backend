@@ -18,11 +18,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 //Registers repository interfaces and their implementations with the dependency injection container. These services are created per request (Scoped lifetime).
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserFactRepository, UserFactRepository>();
 builder.Services.AddScoped<ITeamSelfieRepository, TeamSelfieRepository>();
 builder.Services.AddScoped<ITrainingActivityRepository, TrainingActivityRepository>();
 builder.Services.AddScoped<ITrainingSelfieRepository, TrainingSelfieRepository>();
-//builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<ILoginRequestRepository, LoginRequestRepository>();
+builder.Services.AddScoped<IFileConverterService, FileConverterService>();
 builder.Services.AddEndpointsApiExplorer();
 
 //Configures Swagger for API documentation. It defines the API title and version and maps IFormFile to a binary format for file uploads.
