@@ -5,7 +5,7 @@
 namespace Mock_Project.Migrations
 {
     /// <inheritdoc />
-    public partial class teamselfiess : Migration
+    public partial class login1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

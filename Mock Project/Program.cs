@@ -1,5 +1,6 @@
 using Azure.Core;
 using Microsoft.Azure.Management.AppService.Fluent.Models;
+using Microsoft.Azure.Management.Storage.Fluent.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Mock_Project.Data;
@@ -13,14 +14,15 @@ builder.Services.AddControllers(options =>
     options.Filters.Add<Mock_Project.Filters.ApiExceptionFilter>();
 });
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("server=USMUMAPRAMO1\\MSSQLSERVER01;database=MockDatabase;TrustServerCertificate=true;Integrated Security=true"));           //.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("server=USMUMAPRAMO1\\MSSQLSERVER01;database=MockDb;TrustServerCertificate=true;Integrated Security=true"));           //.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery));
 
 //Registers repository interfaces and their implementations with the dependency injection container. These services are created per request (Scoped lifetime).
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITeamSelfieRepository, TeamSelfieRepository>();
 builder.Services.AddScoped<ITrainingActivityRepository, TrainingActivityRepository>();
 builder.Services.AddScoped<ITrainingSelfieRepository, TrainingSelfieRepository>();
-builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+//builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<ILoginRequestRepository, LoginRequestRepository>();
 builder.Services.AddEndpointsApiExplorer();
 
 //Configures Swagger for API documentation. It defines the API title and version and maps IFormFile to a binary format for file uploads.
