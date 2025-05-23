@@ -12,8 +12,8 @@ using Mock_Project.Data;
 namespace Mock_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250503085038_teamselfiess")]
-    partial class teamselfiess
+    [Migration("20250521085757_login1")]
+    partial class login1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,6 +25,33 @@ namespace Mock_Project.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Mock_Project.Models.LoginRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LoginRequests");
+                });
+
             modelBuilder.Entity("Mock_Project.Models.TeamSelfie", b =>
                 {
                     b.Property<int>("Id")
@@ -33,11 +60,7 @@ namespace Mock_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("Base64Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -84,7 +107,7 @@ namespace Mock_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("Base64Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -113,7 +136,7 @@ namespace Mock_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProfilePictureUrl")
+                    b.Property<string>("ProfilePictureBase64")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -156,7 +179,7 @@ namespace Mock_Project.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<string>("Base64Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

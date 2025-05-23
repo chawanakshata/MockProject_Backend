@@ -16,7 +16,8 @@ namespace Mock_Project.Data
         public DbSet<TrainingSelfie> TrainingSelfies { get; set; }
         public DbSet<TrainingActivity> TrainingActivities { get; set; }
         public DbSet<UserFact> UserFacts { get; set; }
-        public DbSet<LoginRequest> LoginRequestTable { get; set; }
+        public DbSet<LoginRequest> LoginRequests { get; set; }
+ 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             
@@ -32,11 +33,6 @@ namespace Mock_Project.Data
                 .HasForeignKey(uf => uf.UserId) 
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.LoginRequest)
-                .WithOne(lr => lr.User)
-                .HasForeignKey<LoginRequest>(lr => lr.Id)
-                .OnDelete(DeleteBehavior.Cascade);
 
             base.OnModelCreating(modelBuilder); 
 

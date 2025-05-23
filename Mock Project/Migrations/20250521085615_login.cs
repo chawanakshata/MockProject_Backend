@@ -6,11 +6,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Mock_Project.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class login : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "LoginRequests",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Username = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Role = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LoginRequests", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "TeamSelfies",
                 columns: table => new
@@ -18,8 +33,7 @@ namespace Mock_Project.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     TeamMemberName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TakenOn = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Base64Image = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,9 +46,10 @@ namespace Mock_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Date = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Week = table.Column<int>(type: "int", nullable: false),
+                    DayNumber = table.Column<int>(type: "int", nullable: false),
+                    Activity = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -48,8 +63,7 @@ namespace Mock_Project.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PersonName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TakenOn = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Base64Image = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -64,11 +78,32 @@ namespace Mock_Project.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Bio = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ProfilePictureUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ProfilePictureBase64 = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "UserFacts",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Fact = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UserFacts", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_UserFacts_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -77,7 +112,7 @@ namespace Mock_Project.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Base64Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -92,6 +127,11 @@ namespace Mock_Project.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_UserFacts_UserId",
+                table: "UserFacts",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_UserImages_UserId",
                 table: "UserImages",
                 column: "UserId");
@@ -101,6 +141,9 @@ namespace Mock_Project.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "LoginRequests");
+
+            migrationBuilder.DropTable(
                 name: "TeamSelfies");
 
             migrationBuilder.DropTable(
@@ -108,6 +151,9 @@ namespace Mock_Project.Migrations
 
             migrationBuilder.DropTable(
                 name: "TrainingSelfies");
+
+            migrationBuilder.DropTable(
+                name: "UserFacts");
 
             migrationBuilder.DropTable(
                 name: "UserImages");
