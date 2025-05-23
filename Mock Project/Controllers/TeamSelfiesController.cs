@@ -10,16 +10,18 @@ using Mock_Project.Exceptions;
 
 namespace Mock_Project.Controllers
 {
-    [TypeFilter(typeof(Mock_Project.Filters.ApiExceptionFilter))]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class TeamSelfiesController : ControllerBase
     {
         private readonly ITeamSelfieRepository _teamSelfieRepository;
+        private readonly IFileConverterService _fileConverterService;
 
-        public TeamSelfiesController(ITeamSelfieRepository teamSelfieRepository)
+        public TeamSelfiesController(ITeamSelfieRepository teamSelfieRepository, IFileConverterService fileConverterService)
         {
             _teamSelfieRepository = teamSelfieRepository;
+            _fileConverterService = fileConverterService;
         }
 
         // Handles file upload for a team selfie.
@@ -29,12 +31,7 @@ namespace Mock_Project.Controllers
             if (model.File == null || model.File.Length == 0)
                 throw new BadRequestException("No file uploaded.");
 
-            string base64Image;
-            using (var ms = new MemoryStream()) // Creates a memory stream to temporarily hold the file data
-            {
-                await model.File.CopyToAsync(ms); // Copies the uploaded file data to the memory stream
-                base64Image = Convert.ToBase64String(ms.ToArray()); // Converts the memory stream to a byte array and then to a base64 string
-            }
+            string base64Image = await _fileConverterService.ConvertToBase64Async(model.File);
 
             var teamSelfie = new TeamSelfie // Creates a new TeamSelfie object
             {
@@ -63,11 +60,9 @@ namespace Mock_Project.Controllers
 
             if (model.File != null && model.File.Length > 0)
             {
-                using (var ms = new MemoryStream())
-                {
-                    await model.File.CopyToAsync(ms);
-                    teamSelfie.Base64Image = Convert.ToBase64String(ms.ToArray());
-                }
+                // Use the file converter service to convert the file to base64
+                teamSelfie.Base64Image = await _fileConverterService.ConvertToBase64Async(model.File);
+                
             }
             teamSelfie.TeamMemberName = model.TeamMemberName;
             await _teamSelfieRepository.UpdateAsync(teamSelfie);
