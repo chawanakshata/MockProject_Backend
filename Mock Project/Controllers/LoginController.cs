@@ -17,6 +17,7 @@ namespace Mock_Project.Controllers
             _loginRequestRepository = loginRequestRepository;
         }
 
+        // Handles user registration and assigns roles based on existing users.
         [HttpPost]
         public async Task<IActionResult> Register([FromBody] LoginRequestInputDto model)
         {
