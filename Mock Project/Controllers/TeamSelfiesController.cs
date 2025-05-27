@@ -24,7 +24,7 @@ namespace Mock_Project.Controllers
             _fileConverterService = fileConverterService;
         }
 
-        // Handles file upload for a team selfie.
+        // Handles POST requests for uploading a team selfie data.
         [HttpPost("UploadFile")]
         public async Task<IActionResult> UploadFile([FromForm] CreateFileUploadRequest model)
         {
